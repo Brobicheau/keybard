@@ -1,0 +1,19 @@
+:root {
+  color-scheme: light dark;
+
+  --text-color: light-dark(var(--brand-900), var(--brand-100));
+  --header-color: light-dark(var(--brand-300), var(--brand-400));
+  --border-color: light-dark(var(--brand-400), var(--brand-500));
+  --background-color: light-dark(var(--brand-100), var(--brand-900));
+
+  --surface-hover-color: light-dark(var(--brand-300), var(--brand-500));
+  --surface-selected-color: light-dark(var(--brand-400), var(--brand-600));
+  --surface-color: light-dark(var(--brand-200), var(--brand-800));
+
+  --modifier-color: light-dark(var(--green-400), var(--green-600));
+  --modifier-hover-color: light-dark(var(--green-500), var(--green-400));
+  --modifier-selected-color: light-dark(var(--yellow-400), var(--yellow-600));
+
+  color: var(--text-color);
+  background-color: var(--background-color);
+}
