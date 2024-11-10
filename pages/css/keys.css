@@ -41,7 +41,7 @@
 }
 
 .key-attop {
-  background-color: var(--text-color);
+  color: var(--text-color);
   position: absolute;
   display: block;
   width: 100%;

@@ -24,12 +24,6 @@ body {
   overflow: hidden;
 }
 
-#app {
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-}
-
 /* The header - title, menu choices, etc. */
 #head {
   flex: 0 0 content;
